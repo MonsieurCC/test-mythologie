@@ -211,6 +211,216 @@ const questions = [
         gods: ["orphee", "apollon", "calliope", "morphee"]
       }
     ]
+  },
+    {
+    text: "Comment réagis-tu quand quelqu’un te confie un secret important ?",
+    answers: [
+      {
+        text: "Je garde tout pour moi et je réfléchis avant d’agir.",
+        gods: ["hades", "persee", "mnemosyne", "hypnos"]
+      },
+      {
+        text: "Je prends une position claire pour aider ou défendre.",
+        gods: ["ares", "zeus", "cassiopee", "achille"]
+      },
+      {
+        text: "Je prends soin d’écouter et de protéger la personne.",
+        gods: ["demeter", "dione", "psyche", "hera"]
+      },
+      {
+        text: "J’allège la situation en rassurant ou en relativisant.",
+        gods: ["hermes", "orphee", "dionysos", "thalie"]
+      }
+    ]
+  },
+  {
+    text: "Quand tu apprends quelque chose de nouveau...",
+    answers: [
+      {
+        text: "Tu analyses immédiatement pour bien comprendre.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "Tu testes par toi-même, tu veux l’expérimenter vite.",
+        gods: ["heracles", "ares", "atalante", "achille"]
+      },
+      {
+        text: "Tu t’intéresses surtout à son impact sur les gens.",
+        gods: ["aphrodite", "psyche", "echo", "demeter"]
+      },
+      {
+        text: "Tu veux l’utiliser pour créer quelque chose d’original.",
+        gods: ["apollon", "morphee", "calliope", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Lors d’une soirée où tu ne connais presque personne...",
+    answers: [
+      {
+        text: "Tu observes et attends de comprendre l’ambiance.",
+        gods: ["hestia", "hades", "selene", "persee"]
+      },
+      {
+        text: "Tu t’imposes, tu te fais remarquer rapidement.",
+        gods: ["zeus", "ares", "achille", "cassiopee"]
+      },
+      {
+        text: "Tu engages gentiment la discussion avec quelques personnes.",
+        gods: ["aphrodite", "demeter", "psyche", "echo"]
+      },
+      {
+        text: "Tu explores, tu vas d’un groupe à l’autre librement.",
+        gods: ["pan", "hermes", "dionysos", "ulysse"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui t’irrite le plus chez les autres ?",
+    answers: [
+      {
+        text: "Le manque de logique ou de réflexion.",
+        gods: ["athena", "mnemosyne", "cadmos", "asclepios"]
+      },
+      {
+        text: "La faiblesse ou le manque de courage.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "Le manque d’empathie ou de considération.",
+        gods: ["hera", "demeter", "psyche", "dione"]
+      },
+      {
+        text: "La rigidité ou le manque de créativité.",
+        gods: ["hermes", "promethee", "dionysos", "apollon"]
+      }
+    ]
+  },
+  {
+    text: "Comment vois-tu l’avenir ?",
+    answers: [
+      {
+        text: "Comme quelque chose qu’on prépare avec méthode.",
+        gods: ["athena", "clio", "persee", "hephaistos"]
+      },
+      {
+        text: "Comme une bataille qu’il faudra gagner.",
+        gods: ["ares", "heracles", "zeus", "achille"]
+      },
+      {
+        text: "Comme une histoire qu’on construit avec les autres.",
+        gods: ["aphrodite", "psyche", "demeter", "helene"]
+      },
+      {
+        text: "Comme un espace d’expérimentation et de créativité.",
+        gods: ["apollon", "orphee", "calliope", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Quelle forme de réussite valorises-tu le plus ?",
+    answers: [
+      {
+        text: "Maîtriser un domaine ou développer un savoir solide.",
+        gods: ["athena", "mnemosyne", "hephaistos", "asclepios"]
+      },
+      {
+        text: "Être fort·e, respecté·e, capable d’affronter les défis.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "Bâtir des relations belles et durables.",
+        gods: ["aphrodite", "psyche", "demeter", "hera"]
+      },
+      {
+        text: "Créer une œuvre, un projet, ou une idée inspirante.",
+        gods: ["apollon", "orphee", "calliope", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Quel type d’environnement te met le plus en confiance ?",
+    answers: [
+      {
+        text: "Un endroit calme où je peux réfléchir.",
+        gods: ["hestia", "hades", "athena", "mnemosyne"]
+      },
+      {
+        text: "Un milieu compétitif et stimulant.",
+        gods: ["ares", "zeus", "heracles", "atalante"]
+      },
+      {
+        text: "Un groupe solidaire et bienveillant.",
+        gods: ["demeter", "psyche", "dione", "aphrodite"]
+      },
+      {
+        text: "Un espace libre et créatif.",
+        gods: ["dionysos", "hermes", "apollon", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Quelle phrase te ressemble le plus ?",
+    answers: [
+      {
+        text: "« Comprendre avant d’agir. »",
+        gods: ["athena", "asclepios", "mnemosyne", "cadmos"]
+      },
+      {
+        text: "« Oser, quitte à se tromper. »",
+        gods: ["heracles", "achille", "ares", "atalante"]
+      },
+      {
+        text: "« Aider les autres est aussi une forme de force. »",
+        gods: ["demeter", "hera", "helene", "psyche"]
+      },
+      {
+        text: "« Créer, c’est vivre en liberté. »",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Quelle qualité te vient spontanément dans les moments difficiles ?",
+    answers: [
+      {
+        text: "La lucidité et l’organisation.",
+        gods: ["athena", "clio", "mnemosyne", "hephaistos"]
+      },
+      {
+        text: "Le courage et l’action immédiate.",
+        gods: ["ares", "heracles", "achille", "thesee"]
+      },
+      {
+        text: "La compassion et l’écoute.",
+        gods: ["demeter", "psyche", "dione", "echo"]
+      },
+      {
+        text: "L’humour et la créativité pour dédramatiser.",
+        gods: ["hermes", "dionysos", "orphee", "thalie"]
+      }
+    ]
+  },
+  {
+    text: "Quel reproche entendrais-tu le plus dans ta vie ?",
+    answers: [
+      {
+        text: "« Tu es trop sérieux·se ou trop critique. »",
+        gods: ["athena", "asclepios", "mnemosyne", "rhea"]
+      },
+      {
+        text: "« Tu es trop intense ou tu vas trop vite. »",
+        gods: ["ares", "heracles", "achille", "zeus"]
+      },
+      {
+        text: "« Tu t’oublies trop pour les autres. »",
+        gods: ["demeter", "psyche", "dione", "helene"]
+      },
+      {
+        text: "« Tu es trop imprévisible ou rêveur·se. »",
+        gods: ["hermes", "dionysos", "orphee", "morphee"]
+      }
+    ]
   }
 ];
 
