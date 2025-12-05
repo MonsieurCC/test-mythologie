@@ -608,7 +608,7 @@ for (const god in conclusions) score[god] = 0;
 // ----------------------------------------------
 const quizContainer = document.getElementById("quiz-container");
 const submitBtn = document.getElementById("submit-btn");
-const resultContainer = document.getElementById("result-container");
+const resultContainer = document.getElementById("result");
 const resultTitle = document.getElementById("result-title");
 const resultText = document.getElementById("result-text");
 
