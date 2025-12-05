@@ -24,13 +24,11 @@
     <button id="submit-btn" style="display:none;">Voir mon résultat</button>
 
     <!-- Zone du résultat -->
-    <div id="result-container" style="display:none;">
-      <h2 id="result-title"></h2>
-      <p id="result-text"></p>
-
-      <button id="restart-btn">Recommencer</button>
-    </div>
-  </main>
+<div id="result" class="result-container" style="display:none;">
+  <h2 id="result-title"></h2>
+  <div id="result-text" class="result-text"></div>
+  <button onclick="restartQuiz()">Recommencer</button>
+</div>
 
   <script src="quiz.js" defer></script>
 </body>
