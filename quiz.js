@@ -368,4 +368,3 @@ submitBtn.addEventListener("click", () => {
 document.getElementById("restart-btn").addEventListener("click", () => {
   location.reload();
 });
-
