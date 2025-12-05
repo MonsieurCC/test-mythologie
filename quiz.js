@@ -1,10 +1,6 @@
 // ----------------------------------------------
-// STRUCTURE DE BASE DU QUIZ
+// QUESTIONS DU TEST (10 premières questions)
 // ----------------------------------------------
-
-// QUESTIONS DU TEST
-// ➜ On commence avec 10 questions pour le format.
-// ➜ On pourra monter jusqu'à 60 en suivant le même modèle.
 const questions = [
   {
     text: "Quand tu fais face à un problème difficile, ta première réaction est...",
@@ -278,12 +274,10 @@ const conclusions = {
 // SYSTÈME DE SCORE
 // ----------------------------------------------
 let score = {};
-for (const god in conclusions) {
-  score[god] = 0;
-}
+for (const god in conclusions) score[god] = 0;
 
 // ----------------------------------------------
-// AFFICHAGE DES QUESTIONS
+// AFFICHAGE UNE QUESTION À LA FOIS
 // ----------------------------------------------
 const quizContainer = document.getElementById("quiz-container");
 const submitBtn = document.getElementById("submit-btn");
@@ -291,56 +285,76 @@ const resultContainer = document.getElementById("result-container");
 const resultTitle = document.getElementById("result-title");
 const resultText = document.getElementById("result-text");
 
-// Génère les questions
-function displayQuiz() {
-  questions.forEach((q, index) => {
-    const questionElem = document.createElement("div");
-    questionElem.classList.add("question");
+let currentQuestion = 0;
+let answersSelected = [];
 
-    const title = document.createElement("h3");
-    title.textContent = (index + 1) + ". " + q.text;
-    questionElem.appendChild(title);
+function showQuestion() {
+  quizContainer.innerHTML = "";
+  const q = questions[currentQuestion];
 
-    q.answers.forEach((ans) => {
-      const option = document.createElement("div");
-      option.classList.add("option");
-      option.textContent = ans.text;
+  const questionElem = document.createElement("div");
+  questionElem.classList.add("question");
 
-      option.addEventListener("click", () => {
-        // désélectionner les autres
-        [...questionElem.getElementsByClassName("option")]
-          .forEach(o => o.classList.remove("selected"));
+  const title = document.createElement("h3");
+  title.textContent = (currentQuestion + 1) + ". " + q.text;
+  questionElem.appendChild(title);
 
-        option.classList.add("selected");
-        option.dataset.gods = JSON.stringify(ans.gods);
-      });
+  q.answers.forEach((ans) => {
+    const option = document.createElement("div");
+    option.classList.add("option");
+    option.textContent = ans.text;
 
-      questionElem.appendChild(option);
+    option.addEventListener("click", () => {
+      [...questionElem.getElementsByClassName("option")]
+        .forEach(o => o.classList.remove("selected"));
+
+      option.classList.add("selected");
+      option.dataset.gods = JSON.stringify(ans.gods);
     });
 
-    quizContainer.appendChild(questionElem);
+    questionElem.appendChild(option);
   });
 
+  quizContainer.appendChild(questionElem);
+
+  submitBtn.textContent =
+    (currentQuestion === questions.length - 1)
+      ? "Voir mon résultat"
+      : "Suivant";
   submitBtn.style.display = "block";
 }
 
-displayQuiz();
+showQuestion();
 
 // ----------------------------------------------
-// CALCUL DU RÉSULTAT
+// BOUTON SUIVANT / CALCUL
 // ----------------------------------------------
 submitBtn.addEventListener("click", () => {
-  // reset
+  const selected = document.querySelector(".option.selected");
+  if (!selected) {
+    alert("Choisis une réponse avant de continuer !");
+    return;
+  }
+
+  answersSelected.push(JSON.parse(selected.dataset.gods));
+  currentQuestion++;
+
+  if (currentQuestion >= questions.length) {
+    calculateResult();
+    return;
+  }
+
+  showQuestion();
+});
+
+// ----------------------------------------------
+// CALCUL DU RÉSULTAT FINAL
+// ----------------------------------------------
+function calculateResult() {
   for (const god in score) score[god] = 0;
 
-  const selected = document.querySelectorAll(".option.selected");
+  answersSelected.forEach(gods => gods.forEach(g => score[g]++));
 
-  selected.forEach(option => {
-    const gods = JSON.parse(option.dataset.gods);
-    gods.forEach(g => score[g]++);
-  });
-
-  // Trouver la divinité gagnante
   let max = 0;
   let chosen = null;
 
@@ -351,16 +365,13 @@ submitBtn.addEventListener("click", () => {
     }
   }
 
-  // Afficher le résultat
   quizContainer.style.display = "none";
   submitBtn.style.display = "none";
 
   resultContainer.style.display = "block";
-
-  const label = chosen ? chosen.toUpperCase() : "RÉSULTAT";
-  resultTitle.textContent = label;
+  resultTitle.textContent = chosen.toUpperCase();
   resultText.textContent = conclusions[chosen] || "Conclusion en préparation…";
-});
+}
 
 // ----------------------------------------------
 // RECOMMENCER
