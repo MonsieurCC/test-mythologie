@@ -685,11 +685,20 @@ function calculateResult() {
     }
   }
 
-  quizContainer.style.display = "none";
-  submitBtn.style.display = "none";
-  resultContainer.style.display = "block";
-  resultTitle.textContent = chosen.toUpperCase();
-  resultText.textContent = conclusions[chosen] || "Conclusion en préparation…";
+ quizContainer.style.display = "none";
+submitBtn.style.display = "none";
+resultContainer.style.display = "block";
+
+resultTitle.textContent = chosen.toUpperCase();
+
+// Formatage en paragraphes HTML
+const formattedText = conclusions[chosen]
+  .split("\n\n")
+  .map(paragraph => `<p>${paragraph}</p>`)
+  .join("");
+
+resultText.innerHTML = formattedText;
+
 }
 
 // ----------------------------------------------
