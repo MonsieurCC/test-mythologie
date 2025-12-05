@@ -421,6 +421,804 @@ const questions = [
         gods: ["hermes", "dionysos", "orphee", "morphee"]
       }
     ]
+  },
+    {
+    text: "Quand tu dois convaincre quelqu’un, tu préfères...",
+    answers: [
+      {
+        text: "Utiliser des arguments logiques et structurés.",
+        gods: ["athena", "cadmos", "asclepios", "clio"]
+      },
+      {
+        text: "Montrer ta détermination et ta force de volonté.",
+        gods: ["ares", "achille", "heracles", "zeus"]
+      },
+      {
+        text: "Toucher la personne avec des émotions sincères.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Séduire par l’originalité, l’humour ou la créativité.",
+        gods: ["hermes", "dionysos", "orphee", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Face à un imprévu important, tu...",
+    answers: [
+      {
+        text: "Réorganises calmement les priorités.",
+        gods: ["athena", "mnemosyne", "hephaistos", "clio"]
+      },
+      {
+        text: "Agis immédiatement pour ne pas perdre de temps.",
+        gods: ["heracles", "ares", "achille", "atalante"]
+      },
+      {
+        text: "Cherches à apaiser les tensions autour de toi.",
+        gods: ["demeter", "hera", "psyche", "echo"]
+      },
+      {
+        text: "Transformes l’imprévu en nouvelle opportunité.",
+        gods: ["hermes", "dionysos", "orphee", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui te rend le plus fier·e ?",
+    answers: [
+      {
+        text: "Avoir su maîtriser une compétence difficile.",
+        gods: ["athena", "hephaistos", "mnemosyne", "asclepios"]
+      },
+      {
+        text: "Avoir surmonté une épreuve exigeante.",
+        gods: ["heracles", "ares", "achille", "atlas"]
+      },
+      {
+        text: "Avoir aidé quelqu’un à aller mieux.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "Avoir créé quelque chose d’unique.",
+        gods: ["apollon", "calliope", "morphee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Si tu devais guider un groupe, tu le ferais...",
+    answers: [
+      {
+        text: "Avec méthode et stratégie.",
+        gods: ["athena", "thesee", "cadmos", "rhea"]
+      },
+      {
+        text: "Avec puissance et assurance.",
+        gods: ["zeus", "ares", "achille", "heracles"]
+      },
+      {
+        text: "Avec empathie et communication.",
+        gods: ["hera", "demeter", "psyche", "dione"]
+      },
+      {
+        text: "Avec créativité et spontanée inspiration.",
+        gods: ["hermes", "orphee", "dionysos", "apollon"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui t’épuise le plus ?",
+    answers: [
+      {
+        text: "Le manque d’organisation ou de logique.",
+        gods: ["athena", "clio", "asclepios", "mnemosyne"]
+      },
+      {
+        text: "Les personnes passives ou hésitantes.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "Les conflits et les tensions émotionnelles.",
+        gods: ["demeter", "psyché", "dione", "echo"]
+      },
+      {
+        text: "Les contraintes strictes et rigides.",
+        gods: ["hermes", "dionysos", "orphee", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Quand tu expliques quelque chose, tu es du genre à...",
+    answers: [
+      {
+        text: "Faire un plan clair, étape par étape.",
+        gods: ["athena", "cadmos", "hephaistos", "asclepios"]
+      },
+      {
+        text: "Utiliser des exemples concrets et dynamiques.",
+        gods: ["heracles", "ares", "achille", "atalante"]
+      },
+      {
+        text: "Utiliser beaucoup d’empathie et d’histoires personnelles.",
+        gods: ["demeter", "psyche", "helene", "echo"]
+      },
+      {
+        text: "Raconter avec humour, images ou créativité.",
+        gods: ["hermes", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Au travail ou à l’école, on te reprocherait plutôt...",
+    answers: [
+      {
+        text: "D’être trop perfectionniste ou trop exigeant·e intellectuellement.",
+        gods: ["athena", "asclepios", "mnemosyne", "rhea"]
+      },
+      {
+        text: "D’être trop impulsif·ve ou intense.",
+        gods: ["ares", "achille", "heracles", "zeus"]
+      },
+      {
+        text: "De trop vouloir faire plaisir aux autres.",
+        gods: ["demeter", "psyche", "dione", "helene"]
+      },
+      {
+        text: "D’être trop dispersé·e ou rêveur·se.",
+        gods: ["hermes", "dionysos", "morphee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Quel type de relation te nourrit le plus ?",
+    answers: [
+      {
+        text: "Celle qui m’aide à réfléchir et à me réaliser.",
+        gods: ["athena", "mnemosyne", "clio", "hephaistos"]
+      },
+      {
+        text: "Celle qui me pousse à me dépasser.",
+        gods: ["ares", "heracles", "zeus", "achille"]
+      },
+      {
+        text: "Celle qui est pleine de soutien, douceur et loyauté.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Celle où on crée, joue et imagine ensemble.",
+        gods: ["orphee", "apollon", "hermes", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui te fait vraiment perdre tes moyens ?",
+    answers: [
+      {
+        text: "Les erreurs illogiques ou le désordre.",
+        gods: ["athena", "asclepios", "mnemosyne", "cadmos"]
+      },
+      {
+        text: "La lâcheté ou le manque de détermination.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "La froideur ou l’indifférence affective.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Les règles injustes ou l’absence de liberté.",
+        gods: ["hermes", "dionysos", "promethee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Si tu ne devais garder qu’une force dans ta vie, ce serait...",
+    answers: [
+      {
+        text: "Ma capacité à comprendre.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "Ma capacité à agir.",
+        gods: ["ares", "heracles", "achille", "zeus"]
+      },
+      {
+        text: "Ma capacité à aimer et soutenir.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Ma capacité à créer et imaginer.",
+        gods: ["apollon", "orphee", "calliope", "promethee"]
+      }
+    ]
+  },
+    {
+    text: "Dans une équipe, ton rôle naturel serait plutôt...",
+    answers: [
+      {
+        text: "Le stratège qui planifie et organise.",
+        gods: ["athena", "thesee", "cadmos", "mnemosyne"]
+      },
+      {
+        text: "Le moteur qui impulse l’action.",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "Le soutien moral qui veille à l’harmonie.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "Le créatif qui inspire et innove.",
+        gods: ["apollon", "orphee", "hermes", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Quand on te donne une critique constructive, tu...",
+    answers: [
+      {
+        text: "Cherches à t’améliorer immédiatement.",
+        gods: ["athena", "asclepios", "hephaistos", "mnemosyne"]
+      },
+      {
+        text: "Te sens challengé et veux prouver ta valeur.",
+        gods: ["ares", "zeus", "achille", "heracles"]
+      },
+      {
+        text: "Écoutes avec sensibilité et te remets en question.",
+        gods: ["demeter", "psyche", "dione", "selene"]
+      },
+      {
+        text: "Transformes ça en humour ou inspiration.",
+        gods: ["hermes", "orphee", "dionysos", "thalie"]
+      }
+    ]
+  },
+  {
+    text: "Comment gères-tu la jalousie des autres envers toi ?",
+    answers: [
+      {
+        text: "Tu clarifies, tu expliques, tu désamorces logiquement.",
+        gods: ["athena", "rhea", "cadmos", "asclepios"]
+      },
+      {
+        text: "Tu n’y fais pas attention, tu continues ton travail.",
+        gods: ["heracles", "ares", "achille", "atlas"]
+      },
+      {
+        text: "Ça te touche et tu cherches à apaiser la situation.",
+        gods: ["demeter", "psyche", "helene", "dione"]
+      },
+      {
+        text: "Tu t’en détaches en restant libre et créatif.",
+        gods: ["apollon", "dionysos", "hermes", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Quel type d’intelligence te semble le plus précieux ?",
+    answers: [
+      {
+        text: "La logique et le sens critique.",
+        gods: ["athena", "mnemosyne", "cadmos", "asclepios"]
+      },
+      {
+        text: "La détermination, la volonté, le courage.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "L’intelligence émotionnelle et relationnelle.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "L’intuition créative et l’imagination.",
+        gods: ["apollon", "orphee", "dionysos", "morphee"]
+      }
+    ]
+  },
+  {
+    text: "Choisis une activité idéale pour un week-end parfait.",
+    answers: [
+      {
+        text: "Visite de musée, bouquins, réflexion tranquille.",
+        gods: ["athena", "hestia", "mnemosyne", "clio"]
+      },
+      {
+        text: "Sport, compétition, aventure en nature.",
+        gods: ["ares", "atalante", "achille", "heracles"]
+      },
+      {
+        text: "Brunch, confidences, soirée douce entre proches.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Concert, danse, théâtre, création artistique.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Quand tu sens que quelqu’un ment...",
+    answers: [
+      {
+        text: "Tu analyses les incohérences pour chercher la vérité.",
+        gods: ["athena", "mnemosyne", "cadmos", "asclepios"]
+      },
+      {
+        text: "Tu confrontes ou tu montres clairement ton agacement.",
+        gods: ["ares", "zeus", "achille", "medee"]
+      },
+      {
+        text: "Tu protèges ceux qui pourraient être blessés.",
+        gods: ["demeter", "psyche", "hera", "echo"]
+      },
+      {
+        text: "Tu observes et tu utilises l’information plus tard.",
+        gods: ["hermes", "ulysse", "orphee", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Quel type de beauté t’inspire le plus ?",
+    answers: [
+      {
+        text: "L’harmonie des idées et du raisonnement.",
+        gods: ["athena", "clio", "mnemosyne", "cadmos"]
+      },
+      {
+        text: "La force, la puissance, la réussite concrète.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "La bonté, la sensibilité, la chaleur humaine.",
+        gods: ["demeter", "psyche", "helene", "dione"]
+      },
+      {
+        text: "L’originalité, la poésie, l’audace créative.",
+        gods: ["apollon", "orphee", "calliope", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Quelle expérience t’a le plus marqué dans la vie ?",
+    answers: [
+      {
+        text: "Une révélation intellectuelle ou spirituelle.",
+        gods: ["athena", "mnemosyne", "hestia", "clio"]
+      },
+      {
+        text: "Une épreuve physique ou morale surmontée.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "Une histoire d’amour ou de loyauté profonde.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Une création, un projet, une passion libératrice.",
+        gods: ["apollon", "orphee", "calliope", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Si tu devais enseigner quelque chose, ce serait...",
+    answers: [
+      {
+        text: "La logique, les sciences, la stratégie.",
+        gods: ["athena", "asclepios", "hephaistos", "clio"]
+      },
+      {
+        text: "Le sport, l’entraînement, la discipline.",
+        gods: ["ares", "heracles", "atalante", "achille"]
+      },
+      {
+        text: "Le développement personnel, l’empathie, l’écoute.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Les arts, l’imagination, l’expression libre.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Quel type de vérité est le plus important à connaître ?",
+    answers: [
+      {
+        text: "La vérité logique et démontrable.",
+        gods: ["athena", "cadmos", "asclepios", "mnemosyne"]
+      },
+      {
+        text: "La vérité de l’effort et de l’épreuve.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "La vérité du cœur et de la fidélité.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "La vérité artistique et intuitive.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+    {
+    text: "Quand tu dois dire quelque chose de difficile à quelqu’un...",
+    answers: [
+      {
+        text: "Tu expliques calmement en pesant tes mots.",
+        gods: ["athena", "asclepios", "cadmos", "mnemosyne"]
+      },
+      {
+        text: "Tu y vas franchement, quitte à être brusque.",
+        gods: ["ares", "zeus", "achille", "heracles"]
+      },
+      {
+        text: "Tu le dis avec douceur et bienveillance.",
+        gods: ["demeter", "psyche", "dione", "helene"]
+      },
+      {
+        text: "Tu utilises humour ou image pour faire passer le message.",
+        gods: ["hermes", "orphee", "dionysos", "thalie"]
+      }
+    ]
+  },
+  {
+    text: "Quel serait ton ennemi juré, symboliquement parlant ?",
+    answers: [
+      {
+        text: "L’ignorance, le mensonge, la confusion.",
+        gods: ["athena", "cadmos", "mnemosyne", "clio"]
+      },
+      {
+        text: "La passivité, la lâcheté, l’abandon.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "L’indifférence émotionnelle, l’égoïsme froid.",
+        gods: ["demeter", "psyche", "hera", "echo"]
+      },
+      {
+        text: "La routine, l’absence de liberté créative.",
+        gods: ["apollon", "hermes", "dionysos", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui te fait perdre patience le plus vite ?",
+    answers: [
+      {
+        text: "La stupidité ou l’incohérence assumée.",
+        gods: ["athena", "clio", "mnemosyne", "asclepios"]
+      },
+      {
+        text: "L’hésitation ou le manque de courage.",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "Les comportements injustes envers quelqu’un.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Les règles absurdes et les idées fermées.",
+        gods: ["hermes", "dionysos", "promethee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Quel serait ton super-pouvoir symbolique ?",
+    answers: [
+      {
+        text: "La clairvoyance et le pouvoir de comprendre tout.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "La force invincible qui protège et combat.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "La guérison émotionnelle et l’harmonie durable.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "La création libre : musique, illusion, invention.",
+        gods: ["apollon", "orphee", "dionysos", "promethee"]
+      }
+    ]
+  },
+  {
+    text: "Quel paysage te ressemble le plus ?",
+    answers: [
+      {
+        text: "Une bibliothèque silencieuse et lumineuse.",
+        gods: ["athena", "mnemosyne", "hestia", "clio"]
+      },
+      {
+        text: "Une montagne escarpée à grimper.",
+        gods: ["ares", "atalante", "achille", "heracles"]
+      },
+      {
+        text: "Un jardin fertile et protecteur.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Un festival coloré au bord de la mer.",
+        gods: ["dionysos", "hermes", "orphee", "apollon"]
+      }
+    ]
+  },
+  {
+    text: "Comment gères-tu la compétition ?",
+    answers: [
+      {
+        text: "Je cherche à être le·la meilleur·e par travail et rigueur.",
+        gods: ["athena", "hephaistos", "cadmos", "asclepios"]
+      },
+      {
+        text: "Je veux gagner, je ne lâche rien.",
+        gods: ["ares", "heracles", "achille", "zeus"]
+      },
+      {
+        text: "J’y participe, mais sans écraser les autres.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Je préfère créer que combattre.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Ton plus grand risque dans la vie serait...",
+    answers: [
+      {
+        text: "De devenir trop critique ou trop perfectionniste.",
+        gods: ["athena", "asclepios", "mnemosyne", "rhea"]
+      },
+      {
+        text: "De foncer sans réfléchir et d’épuiser tes forces.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "De t’oublier toi-même pour les autres.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "De te perdre dans le rêve ou l’indiscipline.",
+        gods: ["hermes", "dionysos", "morphee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Choisis un symbole qui te représente.",
+    answers: [
+      {
+        text: "Un hibou : la connaissance silencieuse.",
+        gods: ["athena", "clio", "mnemosyne", "asclepios"]
+      },
+      {
+        text: "Une épée : la volonté d’agir et de protéger.",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "Une fleur : la douceur qui soutient et soigne.",
+        gods: ["demeter", "psyche", "dione", "helene"]
+      },
+      {
+        text: "Une lyre : la liberté d’imaginer et d’inspirer.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Comment préfères-tu résoudre un conflit personnel ?",
+    answers: [
+      {
+        text: "Avec une discussion rationnelle et claire.",
+        gods: ["athena", "cadmos", "mnemosyne", "rhea"]
+      },
+      {
+        text: "En affrontant directement le problème.",
+        gods: ["ares", "zeus", "achille", "heracles"]
+      },
+      {
+        text: "En cherchant la paix et le bien-être de chacun.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "En changeant de perspective, en créant du recul.",
+        gods: ["hermes", "orphee", "dionysos", "thalie"]
+      }
+    ]
+  },
+  {
+    text: "Si tu devais laisser un héritage au monde...",
+    answers: [
+      {
+        text: "Un savoir, une découverte, une vérité éclairante.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "Un acte héroïque, une victoire inspirante.",
+        gods: ["ares", "heracles", "achille", "atalante"]
+      },
+      {
+        text: "Une communauté plus juste et plus solidaire.",
+        gods: ["demeter", "psyche", "hera", "dione"]
+      },
+      {
+        text: "Une œuvre, une invention, une création unique.",
+        gods: ["apollon", "promethee", "orphee", "dionysos"]
+      }
+    ]
+  },
+    {
+    text: "Quel défaut te fait le plus peur pour toi-même ?",
+    answers: [
+      {
+        text: "Devenir froid·e, trop intellectuel·le, distant·e.",
+        gods: ["athena", "asclepios", "mnemosyne", "rhea"]
+      },
+      {
+        text: "Devenir agressif·ve, impulsif·ve, instable.",
+        gods: ["ares", "achille", "heracles", "zeus"]
+      },
+      {
+        text: "De devenir dépendant·e, trop sacrificiel·le.",
+        gods: ["demeter", "psyche", "dione", "helene"]
+      },
+      {
+        text: "De me perdre dans les illusions ou l’indiscipline.",
+        gods: ["hermes", "dionysos", "morphee", "orphee"]
+      }
+    ]
+  },
+  {
+    text: "Choisis un animal symbolique pour te représenter.",
+    answers: [
+      {
+        text: "Le renard : la lucidité et l’observation.",
+        gods: ["athena", "cadmos", "mnemosyne", "clio"]
+      },
+      {
+        text: "Le lion : la puissance et le courage.",
+        gods: ["ares", "zeus", "achille", "heracles"]
+      },
+      {
+        text: "La colombe : l’amour et le soin mutuel.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "Le dauphin : la liberté ludique et l’inspiration.",
+        gods: ["apollon", "orphee", "dionysos", "hermes"]
+      }
+    ]
+  },
+  {
+    text: "Quelle citation te correspondrait le mieux ?",
+    answers: [
+      {
+        text: "« Connaître, c’est déjà transformer. »",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "« La victoire appartient aux audacieux. »",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "« L’amour est le moteur des grands choix. »",
+        gods: ["demeter", "psyche", "helene", "hera"]
+      },
+      {
+        text: "« Créer, c’est être pleinement vivant. »",
+        gods: ["apollon", "orphee", "calliope", "dionysos"]
+      }
+    ]
+  },
+  {
+    text: "Que penses-tu de la solitude ?",
+    answers: [
+      {
+        text: "C’est une alliée pour réfléchir.",
+        gods: ["athena", "hestia", "mnemosyne", "clio"]
+      },
+      {
+        text: "C’est un moment de repos entre les combats.",
+        gods: ["ares", "heracles", "achille", "atalante"]
+      },
+      {
+        text: "Elle est difficile si elle manque de liens.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Elle est inspirante si elle mène à créer.",
+        gods: ["apollon", "orphee", "dionysos", "morphee"]
+      }
+    ]
+  },
+  {
+    text: "Qu’est-ce qui te donne le plus d’énergie ?",
+    answers: [
+      {
+        text: "Résoudre un problème complexe.",
+        gods: ["athena", "cadmos", "mnemosyne", "asclepios"]
+      },
+      {
+        text: "Relever un défi physique ou mental.",
+        gods: ["ares", "heracles", "achille", "atlas"]
+      },
+      {
+        text: "Partager des moments profonds avec quelqu’un.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "Exprimer ta créativité ou ta fantaisie.",
+        gods: ["apollon", "orphee", "dionysos", "hermes"]
+      }
+    ]
+  },
+  {
+    text: "Si on écrivait un livre sur ta vie, ce serait...",
+    answers: [
+      {
+        text: "Un traité de réflexion et de sagesse.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "Une saga épique pleine d’épreuves.",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "Une histoire d’amour, de loyauté et de lien humain.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Un conte poétique, étrange ou visionnaire.",
+        gods: ["apollon", "orphee", "dionysos", "morphee"]
+      }
+    ]
+  },
+  {
+    text: "Quelle énergie te définit le plus ?",
+    answers: [
+      {
+        text: "La lucidité stratégique.",
+        gods: ["athena", "cadmos", "mnemosyne", "asclepios"]
+      },
+      {
+        text: "La force et l’audace.",
+        gods: ["ares", "achille", "heracles", "atlas"]
+      },
+      {
+        text: "La générosité affective.",
+        gods: ["demeter", "psyche", "dione", "hera"]
+      },
+      {
+        text: "La créativité inspirée.",
+        gods: ["apollon", "orphee", "dionysos", "calliope"]
+      }
+    ]
+  },
+  {
+    text: "Tu veux être quelqu’un qui...",
+    answers: [
+      {
+        text: "Comprend profondément le monde.",
+        gods: ["athena", "mnemosyne", "clio", "asclepios"]
+      },
+      {
+        text: "Accomplit des actions remarquables.",
+        gods: ["ares", "achille", "heracles", "atalante"]
+      },
+      {
+        text: "Aime sincèrement et protège les autres.",
+        gods: ["demeter", "psyche", "hera", "helene"]
+      },
+      {
+        text: "Crée quelque chose d’unique et de libre.",
+        gods: ["apollon", "orphee", "dionysos", "promethee"]
+      }
+    ]
   }
 ];
 
