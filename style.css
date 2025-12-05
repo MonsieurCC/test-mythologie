@@ -96,3 +96,51 @@ button:hover {
   font-size: 1.1rem;
   line-height: 1.6;
 }
+body {
+  font-family: "Merriweather", "Georgia", serif;
+  background-color: #f7f6f3;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+/* Container général */
+.quiz-container, .result-container {
+  max-width: 750px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Titres */
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #2d3450;
+  text-align: center;
+}
+
+/* Boutons */
+button {
+  background-color: #3b4ea1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5567d8;
+}
+
+/* Conclusion text */
+.result-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 18px;
+}
